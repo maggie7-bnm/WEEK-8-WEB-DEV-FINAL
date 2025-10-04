@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Beverly</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-container">
+      <a class="nav-logo" href="index.html">Beverly</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+      <div class="nav-menu" id="nav-menu" aria-hidden="true">
+        <button id="nav-close" class="nav-close" aria-label="Close menu">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>About Me</h1>
+        <p>Learn about my approach, background, and what I build.</p>
+      </div>
+    </section>
+
+    <section class="about-content container-section">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img src="images/profile.jpg" alt="Beverly portrait" class="profile-img about-large" onerror="this.style.display='none'">
+          <div class="image-placeholder large" aria-hidden="true"><i class="fas fa-user"></i></div>
+        </div>
+
+        <div class="about-text">
+          <h2>My Story</h2>
+          <p>Hey — I'm Beverly. I design and build websites that help small businesses and creators present themselves professionally online. I started building sites because I enjoy solving real problems with simple, beautiful interfaces.</p>
+
+          <p>I focus on accessible, responsive design and clean front-end code. I enjoy collaborating with founders and designers to turn ideas into products that people actually enjoy using.</p>
+
+          <div class="about-stats">
+            <div class="stat">
+              <h3>40+</h3>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+              <h3>4+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <h3>25+</h3>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline-section container-section">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-date">2022 - Present</div>
+            <div class="timeline-content">
+              <h3>Freelance Frontend Engineer</h3>
+              <h4>Independent</h4>
+              <p>Design and build websites for small businesses and creators.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2020 - 2022</div>
+            <div class="timeline-content">
+              <h3>Frontend Developer</h3>
+              <h4>Creative Studio</h4>
+              <p>Worked on responsive websites and product UIs for diverse clients.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">2018 - 2020</div>
+            <div class="timeline-content">
+              <h3>Junior Web Developer</h3>
+              <h4>Startup</h4>
+              <p>Built features, learned styling systems, and shipped production code.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Beverly</h3>
+        <p>Designing web experiences that feel effortless and look professional.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year-2">2025</span> Beverly. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

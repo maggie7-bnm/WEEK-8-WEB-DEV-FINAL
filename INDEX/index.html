@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Beverly — Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-container">
+      <a class="nav-logo" href="index.html">Beverly</a>
+
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+
+      <div class="nav-menu" id="nav-menu" aria-hidden="true">
+        <button id="nav-close" class="nav-close" aria-label="Close menu">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Hi, I'm <span>Beverly</span></h1>
+        <p class="hero-subtitle">Frontend Developer & Product Designer</p>
+        <p class="hero-description">I build clean, accessible, and responsive websites that help small businesses and creators stand out. I focus on speed, usability, and polished visuals.</p>
+
+        <div class="hero-buttons">
+          <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+          <a href="about.html" class="btn btn-secondary">Learn More</a>
+        </div>
+      </div>
+
+      <div class="hero-image" aria-hidden="false">
+        <img src="images/profile.jpg" alt="Beverly portrait" class="profile-img" onerror="this.style.display='none'">
+        <div class="image-placeholder" aria-hidden="true">
+          <i class="fas fa-user"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Featured Work -->
+  <main>
+    <section class="featured-work container-section">
+      <div class="container">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="work-grid">
+          <article class="work-item" tabindex="0">
+            <div class="work-image" aria-hidden="true"><i class="fas fa-store"></i></div>
+            <h3>Shopfront E-commerce</h3>
+            <p>Responsive online store with fast checkout, inventory sync, and mobile-first design.</p>
+            <a href="#" class="work-link" aria-label="View Shopfront project">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="work-item" tabindex="0">
+            <div class="work-image" aria-hidden="true"><i class="fas fa-mobile-alt"></i></div>
+            <h3>FitTrack UI</h3>
+            <p>Mobile app interface focused on habit tracking and clean data visualization.</p>
+            <a href="#" class="work-link" aria-label="View FitTrack project">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+
+          <article class="work-item" tabindex="0">
+            <div class="work-image" aria-hidden="true"><i class="fas fa-chart-line"></i></div>
+            <h3>Insight Dashboard</h3>
+            <p>Custom analytics dashboard with filtering, charts, and exportable reports.</p>
+            <a href="#" class="work-link" aria-label="View Insight Dashboard project">View Project <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills container-section">
+      <div class="container">
+        <h2 class="section-title">Skills & Technologies</h2>
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3>Frontend</h3>
+            <div class="skill-list">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Backend & API</h3>
+            <div class="skill-list">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express</span>
+              <span class="skill-tag">MongoDB</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3>Tools</h3>
+            <div class="skill-list">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Sass</span>
+              <span class="skill-tag">Webpack</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Beverly</h3>
+        <p>Designing web experiences that feel effortless and look professional.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="social-icons" role="navigation" aria-label="Social links">
+          <a href="#" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year">2025</span> Beverly. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

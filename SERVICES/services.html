@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Services — Beverly</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="container nav-container">
+      <a class="nav-logo" href="index.html">Beverly</a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Open menu">
+        <i class="fas fa-bars" aria-hidden="true"></i>
+      </button>
+      <div class="nav-menu" id="nav-menu" aria-hidden="true">
+        <button id="nav-close" class="nav-close" aria-label="Close menu">
+          <i class="fas fa-times" aria-hidden="true"></i>
+        </button>
+
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="services.html" class="nav-link active">Services</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Services</h1>
+        <p>Web development and product design services tailored to your goals.</p>
+      </div>
+    </section>
+
+    <section class="services-grid container-section">
+      <div class="container services-container">
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true"><i class="fas fa-code"></i></div>
+          <h3>Web Development</h3>
+          <p>Fast, accessible websites built with modern front-end tech: HTML, CSS, JavaScript, and React.</p>
+          <ul class="service-features">
+            <li>Responsive & Mobile-First</li>
+            <li>Performance Optimization</li>
+            <li>SEO Fundamentals</li>
+            <li>Maintenance & Support</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Get Started</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true"><i class="fas fa-paint-brush"></i></div>
+          <h3>UI / Product Design</h3>
+          <p>User-centered interfaces, wireframes, and prototypes that align with business goals.</p>
+          <ul class="service-features">
+            <li>Wireframing & Prototypes</li>
+            <li>User Research</li>
+            <li>Design Systems</li>
+            <li>Motion & Interaction</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Get Started</a>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon" aria-hidden="true"><i class="fas fa-shopping-cart"></i></div>
+          <h3>E-commerce</h3>
+          <p>Shop builds and integrations with payments, inventory, and analytics.</p>
+          <ul class="service-features">
+            <li>Payment Integration</li>
+            <li>Inventory Management</li>
+            <li>Shop Analytics</li>
+            <li>Conversion-Driven Layouts</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Get Started</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="process-section container-section">
+      <div class="container">
+        <h2 class="section-title">How I Work</h2>
+        <div class="process-steps">
+          <div class="process-step"><div class="step-number">1</div><h3>Discover</h3><p>Define goals, audience and success metrics.</p></div>
+          <div class="process-step"><div class="step-number">2</div><h3>Plan</h3><p>Roadmap, milestones and prioritization.</p></div>
+          <div class="process-step"><div class="step-number">3</div><h3>Design</h3><p>Wireframes, UI and prototype iterations.</p></div>
+          <div class="process-step"><div class="step-number">4</div><h3>Build</h3><p>Ship accessible, tested front-end code.</p></div>
+          <div class="process-step"><div class="step-number">5</div><h3>Test</h3><p>Cross-device QA and performance tuning.</p></div>
+          <div class="process-step"><div class="step-number">6</div><h3>Launch</h3><p>Deploy and provide ongoing support.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section container-section">
+      <div class="container cta-content">
+        <h2>Ready to Start?</h2>
+        <p>Tell me about your project and I’ll respond within 48 hours.</p>
+        <a href="contact.html" class="btn btn-primary btn-large">Get In Touch</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Beverly</h3>
+        <p>Designing web experiences that feel effortless and look professional.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-social">
+        <h4>Connect</h4>
+        <div class="social-icons">
+          <a href="#" aria-label="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>&copy; <span id="current-year-3">2025</span> Beverly. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
